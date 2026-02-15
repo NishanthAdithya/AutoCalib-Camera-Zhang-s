@@ -8,8 +8,7 @@ The calibration target used is a 9 × 6 inner-corner checkerboard printed on A4 
 
 ### Directory Structure
 ```
-nchandramouli_hw1/
-│── Calibration_Imgs/       
+nchandramouli_hw1/      
 │── Results/                
 │── Wrapper.py
 │── calib.py              
