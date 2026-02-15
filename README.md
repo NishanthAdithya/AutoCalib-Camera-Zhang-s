@@ -8,11 +8,36 @@ The calibration target used is a 9 × 6 inner-corner checkerboard printed on A4 
 
 ### Directory Structure
 ```
-AutoCalib/
+nchandramouli_hw1/
 │── Calibration_Imgs/       
 │── Results/                
 │── Wrapper.py
 │── calib.py              
 │── Report.pdf              
 |__ README.md
+```
+### Dependencies
+Install the required Python packages:
+
+```bash
+pip install numpy opencv-python scipy
+```
+
+### How to Run
+Place all calibration images inside:
+
+```
+Calibration_Imgs/
+```
+
+Then execute:
+
+```bash
+python Wrapper.py
+```
+
+The reprojection images will be stored in the folder:
+
+```bash
+Results/
 ```
